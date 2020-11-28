@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title>GESTION DES ARTICLES</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="fonticons/css/font-awesome.min.css">
+	<style type="text/css">
+
+	h1{
+		background-color: black;
+		color: orange;
+		text-align: center;
+	}
+	   .container{
+	   	margin-left: 1px;
+  width: 225px;
+  height: 800px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+	</style>
+</head>
+<body>
+	<ul>
+  <li><a href="pass.html">Gestions des articles</a></li>
+  <li><a href="list_client.html">Gestion des tiers</a></li>
+  <li style="float:right"><a href="#contact">My account</a></li>
+  <li style="float:right"><a href="index.html"><span class="fa fa-power-off pf"></span>Sing out</a></li>
+</ul>
+	<h1><b>GESTION DES ARTICLES</b></h1>
+
+	<!-- contenu gauche -->
+	<div class="row">
+		<div class="col-md-4">
+			<div class="container">
+				<p><strong>Approvisionnement</strong></p>
+					<a href="pass.html"><span class="fa fa-shopping-basket env"></span>Passer une commande</a>
+					<br>
+					<a href="list_achat.html"><span class="fa fa-shopping-bag env"></span>Liste des achats</a>
+					<br><br>
+				<p><strong>Stock</strong></p> <a href="list_art.html"><span class="fa fa-shopping-bag env"></span>Liste des articles</a>
+					<br><br>
+				<p><strong>Caisse</strong></p> <a href="list_vente.html"><span class="fa fa-shopping-bag env"></span>Liste des ventes</a>
+					<br><br>
+
+				<p><strong>Charges</strong></p> 
+					<a href="aj_ch.html"><span class="fa fa-bookmark env"></span>Ajouter une charge</a><br>
+					<a href="list_charg.html"><span class="fa fa-shopping-bag env"></span>Liste des charges</a>
+			</div>
+		</div>
+		<div class="col-md-8"></div>
+	</div>
+</body>
+</html>
